@@ -3,7 +3,10 @@
 steps for using project:
 - run command "composer install"
 - run command "yarn install"
+- change databse config in .env file 
 - create database " php bin/console doctrine:database:create "
+- make your own entities 
+- make migration " php bin/console make:migration "
 - migrate db " php bin/console doctrine:migrations:migrate "
 - run encore " yarn encore dev --watch "
 - start server " php bin/console server:run "
